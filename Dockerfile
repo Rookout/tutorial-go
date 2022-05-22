@@ -16,7 +16,8 @@ RUN go get -d github.com/Rookout/GoSDK@v0.1.8
 
 RUN go mod download
 RUN go mod tidy
-RUN go build -gcflags='-N -l' cmd/main.go
+
+RUN go build -tags=alpine314,rookout_static -gcflags='-N -l' cmd/main.go
 
 ENV PORT 1994
 EXPOSE 1994
