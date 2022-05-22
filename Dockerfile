@@ -21,6 +21,7 @@ RUN go build -tags=alpine314,rookout_static -gcflags='-N -l' cmd/main.go
 
 FROM alpine:3.15 as release
 COPY --from=builder /app/main ./
+COPY --from=builder /app/web /web
 
 ENV PORT 1994
 EXPOSE 1994
