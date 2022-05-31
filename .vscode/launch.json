@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "debug",
             "program": "${workspaceFolder}/cmd/main.go",
-            "args": ["-tags=alpine314", "rookout_static -gcflags='-N -l'"]
+            "args": ["-tags=debian", "rookout_static -gcflags='-N -l'"]
         }
     ]
 }
