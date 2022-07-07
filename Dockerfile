@@ -17,7 +17,7 @@ RUN go get github.com/Rookout/GoSDK@v0.1.11
 RUN go mod download
 RUN go mod tidy
 
-RUN go build -tags=alpine314,rookout_static -gcflags='-N -l' cmd/main.go
+RUN go build -tags=alpine314,rookout_static -gcflags='all=-N -l' cmd/main.go
 
 FROM alpine:3.15 as release
 COPY --from=builder /app/main ./
