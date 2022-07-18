@@ -6,6 +6,8 @@ github.com/Rookout/GoSDK v0.1.12-stub h1:qpPuVtTyFhdw8r5MLLvpp64vGNZ2r+3szxEnmw+
 github.com/Rookout/GoSDK v0.1.12-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
 github.com/Rookout/GoSDK v0.1.14-stub h1:hlqNcaXYd4XuqDXBHjJiztR7XXQFLO8Gl5kNhnlOWKM=
 github.com/Rookout/GoSDK v0.1.14-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
+github.com/Rookout/GoSDK v0.1.15-stub h1:NDqZo9OXjCN0InyYSMtKTfu6AdxRLD/AaF8mVW8rXDc=
+github.com/Rookout/GoSDK v0.1.15-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
