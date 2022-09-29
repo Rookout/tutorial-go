@@ -122,12 +122,11 @@ jobs:
     working_directory: ~/demo
     steps:
       - run: sleep 15 && echo "Checking Staging..."
-      - run: curl 'http://staging.machina.rookout-demo.com/account/register'
-      - run: curl 'http://staging.python.rookout-demo.com/'
-      - run: curl 'http://staging.java.rookout-demo.com/'
-      - run: curl 'http://staging.nodejs.rookout-demo.com/'
-      - run: curl 'http://staging.ruby.rookout-demo.com/'
-      - run: curl 'http://staging.golang.rookout-demo.com/'
+      - run: curl --fail 'https://machina.staging.rookout-demo.com/account/register'
+      - run: curl --fail 'https://python.staging.rookout-demo.com/'
+      - run: curl --fail 'https://java.staging.rookout-demo.com/'
+      - run: curl --fail 'https://nodejs.staging.rookout-demo.com/'
+      - run: curl --fail 'https://ruby.staging.rookout-demo.com/'
       - run: sleep 15 && echo "Checking Production..."
       - run: curl 'http://machina.rookout-demo.com/account/register'
       - run: curl 'http://python.rookout-demo.com/'
