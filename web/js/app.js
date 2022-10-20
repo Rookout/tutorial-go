@@ -56,6 +56,12 @@ $().ready(() => {
                         break;
                 }
             },
+            removeAll() {
+                const action = $.ajax('/todos', {
+                    method: 'DELETE'
+                });
+                this.reloadOnFinish(action);
+            },
             clearCompleted(e) {
                 const action = $.ajax('/todos/clear_completed', {
                     method: 'DELETE'
