@@ -14,6 +14,8 @@ github.com/Rookout/GoSDK v0.1.26-stub h1:26kqxTdFPpPwdqIelbDAppvDQBsbwRNq5eKQ0cp
 github.com/Rookout/GoSDK v0.1.26-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
 github.com/Rookout/GoSDK v0.1.27-stub h1:Rce5Iqp9xYIAMV92SsHX6Eq4MboMdJRDrO8mHhapR4Y=
 github.com/Rookout/GoSDK v0.1.27-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
+github.com/Rookout/GoSDK v0.1.28-stub h1:zBnwTeEWDu9vR2LcjIybj1xikrJ+SnHpIx7SpdEKf7I=
+github.com/Rookout/GoSDK v0.1.28-stub/go.mod h1:5Gn4tldWZMyhWM1u5x4klmwk52U6Ik9oGj8Xj2aRlnc=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
