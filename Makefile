@@ -2,7 +2,7 @@ PUBLISH_VERSION=$(shell echo ${NEW_VERSION} | sed 's/inner-999/1/g')
 
 
 build:
-	docker build --tag rookout/tutorial-go:latest --tag rookout/tutorial-go:${PUBLISH_VERSION} . --build-arg ARTIFACTORY_CREDS=${JFROG_ARTIFACTORY_CREDS}
+	docker build --tag rookout/tutorial-go:latest --tag rookout/tutorial-go:${PUBLISH_VERSION} .
 
 upload-no-latest:
 	docker push rookout/tutorial-go:${PUBLISH_VERSION}
