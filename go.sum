@@ -1,6 +1,8 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Rookout/GoSDK v0.1.31 h1:DWdan8nHU8ay5O9bh9YSlRFU5qUT85vZUC+ejUgCbPI=
 github.com/Rookout/GoSDK v0.1.31/go.mod h1:IYXJ5V+CeBKgUWv04dbuUrOOJc7m/2F3a2v82Wg18yI=
+github.com/Rookout/GoSDK v0.1.33 h1:AUmpAKZfjG4Pq00idKQA4WNiCRc5EyQJUjQQpnL/dcE=
+github.com/Rookout/GoSDK v0.1.33/go.mod h1:IYXJ5V+CeBKgUWv04dbuUrOOJc7m/2F3a2v82Wg18yI=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
