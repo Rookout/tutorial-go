@@ -3,7 +3,7 @@ module github.com/theramis/todo-backend-go-echo
 go 1.18
 
 require (
-	github.com/Rookout/GoSDK v0.1.36
+	github.com/Rookout/GoSDK v0.1.37
 	github.com/labstack/echo/v4 v4.1.14
 	github.com/lithammer/shortuuid v3.0.0+incompatible
 )
@@ -32,10 +32,10 @@ require (
 	golang.org/x/arch v0.2.0 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
-	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.3.3 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
