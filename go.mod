@@ -3,7 +3,7 @@ module github.com/theramis/todo-backend-go-echo
 go 1.18
 
 require (
-	github.com/Rookout/GoSDK v0.1.42
+	github.com/Rookout/GoSDK v0.1.43
 	github.com/labstack/echo/v4 v4.1.14
 	github.com/lithammer/shortuuid v3.0.0+incompatible
 )
@@ -23,7 +23,7 @@ require (
 	github.com/mattn/go-isatty v0.0.11 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
